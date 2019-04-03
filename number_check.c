@@ -2,12 +2,12 @@
 
 void main()
 {
-    int a;
+    int num;
     printf("enter a number");
-    scanf("%d",&a);
-    if(a>0)
+    scanf("%d",&num);
+    if(num>0)
         printf("Positive");
-    else if (a<0)
+    else if (num<0)
         printf("Negative");
     else
         printf("Zero");
