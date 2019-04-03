@@ -42,13 +42,11 @@ int main()
 
 int find_min(int len_arr[],int length)
 {
-    int loc=0;
     int min=len_arr[0];
     for(int i=1;i<length;i++)
     {
         if(min>len_arr[i])
             min=len_arr[i];
-            //loc=i;
     }
     return min;
 }
