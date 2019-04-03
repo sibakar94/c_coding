@@ -11,5 +11,5 @@ int main()
         large=num2;
     else
         large=num3;
-    printf("%d",num3);
+    printf("%d",large);
 }
