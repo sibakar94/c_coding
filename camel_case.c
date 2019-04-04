@@ -6,7 +6,7 @@ int main()
 {
     char str[20];
     printf("enter a string");
-    scanf("%s",str);
+    scanf("%s",&str);
     int len=strlen(str);
     str[0]=toupper(str[0]);
     for(int i=1;i<len;i++)
